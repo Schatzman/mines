@@ -77,7 +77,7 @@ function createGameBoard(grid, count_grid){
     for(row=0; row<grid.length; row++){
         var row_container = document.createElement('div');
         for(col=0; col<grid[0].length; col++){
-            div = document.createElement('div');
+            var div = document.createElement('div');
             div.style.border = "1px solid red";
             div.style.height = "30px";
             div.style.width = "40px";
